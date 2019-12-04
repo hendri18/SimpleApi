@@ -4,12 +4,12 @@
 # How to Use 
 | Domain | Method   | URI          | Name | Action  | Middleware |
 |--|--|--|--|--|--|
-|        | GET|HEAD | /            |   -   | Closure | web           |
-|        | GET|HEAD | api/naruto   |   -   | Closure | api           |
-|        | GET|HEAD | api/sasuke   |   -   | Closure | api,api.token |
-|        | GET|HEAD | api/user     |   -   | Closure | api,auth:api  |
-|        | GET|HEAD | apiv1/naruto |   -   | Closure | api           |
-|        | GET|HEAD | apiv1/user   |   -   | Closure | api,auth:api  |
+|        | GET HEAD | /            |   -   | Closure | web           |
+|        | GET HEAD | api/naruto   |   -   | Closure | api           |
+|        | GET HEAD | api/sasuke   |   -   | Closure | api,api.token |
+|        | GET HEAD | api/user     |   -   | Closure | api,auth:api  |
+|        | GET HEAD | apiv1/naruto |   -   | Closure | api           |
+|        | GET HEAD | apiv1/user   |   -   | Closure | api,auth:api  |
 
 
 
