@@ -18,7 +18,7 @@
  **Using `token: 123asd123asd123` in header, curl php example :**
 
 
-$curl = curl_init();
+`$curl = curl_init();
 
 curl_setopt_array($curl, array(
   CURLOPT_PORT => "8000",
@@ -37,7 +37,7 @@ curl_setopt_array($curl, array(
     "cache-control: no-cache",
     "token: 123asd123asd123"
   ),
-));
+));`
 
 `$response = curl_exec($curl);`
 `echo $response;`
