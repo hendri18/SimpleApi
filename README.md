@@ -17,7 +17,7 @@
  - api.token : 
  **Using `token: 123asd123asd123` in header, curl php example :**
 
-
+```
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -39,5 +39,6 @@ curl_setopt_array($curl, array(
   ),
 ));
 
-`$response = curl_exec($curl);`
-`echo $response;`
+$response = curl_exec($curl);
+echo $response;
+```
